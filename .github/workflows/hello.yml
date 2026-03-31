@@ -15,10 +15,10 @@ jobs:
     name: Say Hello
 
     #Type of machine to run on
-    runs-0n: ubuntu-latest
+    runs-on: ubuntu-latest
 
     #Step to execute
-    step:
+    steps:
       - name: Print greetings
         run: echo "Hello, DevOps Engineers"
 
